@@ -1,3 +1,16 @@
+.entrada__toggleContainer {
+    width: 100%;
+    background-color: var(--bgTask);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.entrada__toggleImg {
+    width: 2%;
+    background-color: var(--bgTask);
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,24 +18,12 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    padding: 5rem 0;
+    padding: 2.5rem 0;
     /* margin: 4rem auto; */
     background-color: var(--bgTask);
 }
 
-.teste__container {
-    width: 100%;
-    background-color: var(--bgTask);
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.teste {
-    width: 2%;
-    /* margin: 0 50vw; */
-    background-color: var(--bgTask);
-    cursor: pointer;
-}
+.entrada__title {}
 
 .entrada__container {
     display: flex;
@@ -34,7 +35,7 @@
 }
 
 .entrada__input {
-    width: 25%;
+    width: 35%;
     height: 35px;
 }
 

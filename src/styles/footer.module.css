@@ -1,0 +1,16 @@
+.footer_container {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: var(--bgHeader);
+
+}
+
+.footer__text {
+    text-align: center;
+    color: #fff;
+}
+
+.footer__text a {
+    color: #fff;
+    text-decoration: underline;
+}

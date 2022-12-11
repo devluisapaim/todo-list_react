@@ -1,7 +1,9 @@
-
+import styles from "../styles/footer.module.css";
 
 export const Footer = () => {
     return(
-        <p>Feito com carinho por Luísa Paim!</p>
+        <div className={styles.footer_container}>
+            <p className={styles.footer__text}>Feito com carinho por <a href="https://www.linkedin.com/in/luisacristinaferreira/">Luísa Paim</a>!</p>
+        </div>
     );
 };

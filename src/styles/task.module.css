@@ -1,9 +1,15 @@
 .task__container {
+    
     background-color: var(--bgTask);
-    margin-bottom: 3rem;
 
-    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px dotted black;
+}
+
+.task__noData {
+    width: 30%;
+    margin: 3rem 35vw;
 }
 
 .task__containerContainer {
@@ -25,9 +31,6 @@
 .task__buttonCheckImg, .task__buttonDeleteImg {
     width: 50%;
 }
-/* 
-.task__checkBox {
-} */
 
 .task__description {
     width: 50%;
