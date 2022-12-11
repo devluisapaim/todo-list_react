@@ -10,7 +10,6 @@ function App() {
     <>
       <Header />
       <Entrada />
-      <Menu />
       <Task />
       <Footer />
     </>

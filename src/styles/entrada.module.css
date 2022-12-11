@@ -1,18 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 5rem 0;
+    /* margin: 4rem auto; */
+    background-color: var(--bgTask);
+}
+
+.teste__container {
+    width: 100%;
+    background-color: var(--bgTask);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.teste {
+    width: 2%;
+    /* margin: 0 50vw; */
+    background-color: var(--bgTask);
+    cursor: pointer;
+}
+
 .entrada__container {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin: 2rem;
+    /* margin: 1rem; */
+    width: 100%;
 }
 
 .entrada__input {
-    width: 30%;
+    width: 25%;
     height: 35px;
 }
 
 .entrada__inputButton {
     margin: 1rem;
+    background-color: var(--bgTask);
+    cursor: pointer;
 }
 
 .entrada__inputImg {
