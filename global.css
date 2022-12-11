@@ -1,0 +1,11 @@
+:root {
+  --bgTask: #e8daef;
+  --bgHeader: #a569bd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}

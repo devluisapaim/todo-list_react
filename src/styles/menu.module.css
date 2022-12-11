@@ -1,0 +1,18 @@
+.menu__container {
+    width: 100%;
+    background-color: var(--bgHeader);
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.menu__listItem {
+    font-size: 1.5rem;
+}

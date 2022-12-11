@@ -1,0 +1,20 @@
+.entrada__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+}
+
+.entrada__input {
+    width: 30%;
+    height: 35px;
+}
+
+.entrada__inputButton {
+    margin: 1rem;
+}
+
+.entrada__inputImg {
+    width: 52%;
+}

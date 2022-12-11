@@ -1,0 +1,14 @@
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--bgHeader);
+    text-align: center;
+}
+
+.header__image {
+    width: 20%;
+}
